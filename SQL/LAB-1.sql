@@ -27,3 +27,9 @@ CREATE TABLE account_roles (
 );
 
 ALTER TABLE account_roles RENAME TO credientials_roles
+
+
+INSERT INTO credientials(username,password,email,created_on,last_login)
+VALUES('user1','sesquipidel','abz@gmailcom',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+
+SELECT * FROM credientials;
