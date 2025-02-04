@@ -25,3 +25,5 @@ CREATE TABLE account_roles (
  FOREIGN KEY (user_id)
  REFERENCES credentials (userid)
 );
+
+ALTER TABLE account_roles RENAME TO credientials_roles
