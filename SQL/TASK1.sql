@@ -49,7 +49,7 @@ SELECT * FROM employees
 
 -- Selecting names and job names from employees --
 
-SELECT emp_name, job_name FROM employee;
+SELECT emp_name, job_name FROM employees;
 
 --ALtering the column name from emp_name to NO -- 
 
