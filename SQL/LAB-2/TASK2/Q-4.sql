@@ -1,0 +1,6 @@
+SELECT * 
+FROM students
+WHERE (name IS NULL AND no_of_A IS NOT NULL AND no_of_B IS NOT NULL AND no_of_C IS NOT NULL)
+   OR (name IS NOT NULL AND no_of_A IS NULL AND no_of_B IS NOT NULL AND no_of_C IS NOT NULL)
+   OR (name IS NOT NULL AND no_of_A IS NOT NULL AND no_of_B IS NULL AND no_of_C IS NOT NULL)
+   OR (name IS NOT NULL AND no_of_A IS NOT NULL AND no_of_B IS NOT NULL AND no_of_C IS NULL);

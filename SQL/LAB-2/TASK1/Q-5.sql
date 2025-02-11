@@ -1,0 +1,1 @@
+SELECT * FROM friends WHERE Age >= 18;

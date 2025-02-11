@@ -1,0 +1,1 @@
+SELECT * FROM friends WHERE Name LIKE 'A%';
