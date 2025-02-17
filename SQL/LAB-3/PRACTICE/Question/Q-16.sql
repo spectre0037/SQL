@@ -1,0 +1,1 @@
+SELECT COUNT(flight_no) FROM flight
