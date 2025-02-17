@@ -1,0 +1,4 @@
+INSERT INTO flight 
+VALUES
+(777,'UK','Sydney',20000,65000),
+(888,'UK','Dallas',25000,2000);
