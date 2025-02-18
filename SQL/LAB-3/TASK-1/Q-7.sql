@@ -1,0 +1,1 @@
+ALTER TABLE order_table ADD COLUMN product_id INT;

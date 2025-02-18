@@ -1,0 +1,3 @@
+-- 11.Drop foreign key constraint applied on category_id.
+ALTER TABLE Product
+DROP CONSTRAINT Product_category_id_fkey;
