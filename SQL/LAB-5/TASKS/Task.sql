@@ -105,6 +105,7 @@ WHERE eid = (
 );
 
 
+
 SELECT aname FROM aircraft
 WHERE cruisingrange >=(
 SELECT distance FROM flights WHERE from_loc = 'LA'
