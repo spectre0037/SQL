@@ -7,7 +7,7 @@ distance INT,
 PRICE    INT
 )
 
-
+-- Aircraft (aid, aname, cruisingrange). //details about all the aircrafts
 INSERT INTO flights(flno,from_loc,to_loc,distance,price)
 VALUES
 (222,'Perth','London',9000,50000),
@@ -15,6 +15,7 @@ VALUES
 (444,'Dallas','Sydney',10000,52000),
 (555,'LA','Singapore',11000,55000),
 (666,'UK','Atlanta',15000,60000)
+
 
 
 CREATE TABLE Aircraft(
