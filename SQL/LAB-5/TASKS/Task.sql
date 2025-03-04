@@ -7,6 +7,7 @@ distance INT,
 PRICE    INT
 )
 
+
 INSERT INTO flights(flno,from_loc,to_loc,distance,price)
 VALUES
 (222,'Perth','London',9000,50000),
