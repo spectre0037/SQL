@@ -62,16 +62,17 @@ VALUES
 (107,111),
 (109,112)
 
-
+-- 1 Display employee id along with the name of the aircraft for which he is certified for
 SELECT eid,(SELECT aname FROM aircraft WHERE aid = c.aid) aircraft_name
 FROM certified c
 
+-- 2 Modify above to display employee names too.
+SELECT eid,(SELECT aname FROM aircraft WHERE aid = certified.aid) aircraft_name,
+(SELECT ename FROM employees WHERE eid = certified.eid) names
+FROM certified 
 
-SELECT eid,(SELECT aname FROM aircraft WHERE aid = c.aid) aircraft_name,
-(SELECT ename FROM employees WHERE eid = c.eid) names
-FROM certified c
 
-
+-- 3 Display name of employee who is certified for the aircraft with the highest of cruising range.
 
 SELECT ename
 FROM employees
@@ -90,7 +91,7 @@ WHERE eid = (
 
 
 
-
+-- 4 Modify above and show his salary too
 SELECT ename,salary
 FROM employees
 WHERE eid = (
@@ -107,7 +108,7 @@ WHERE eid = (
 );
 
 
-
+-- 5 Display name of the suitable air craft for the flight from LA (based upon the distance and cruising range of craft)
 SELECT aname FROM aircraft
 WHERE cruisingrange >=(
 SELECT distance FROM flights WHERE from_loc = 'LA'
