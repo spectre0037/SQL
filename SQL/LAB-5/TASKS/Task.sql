@@ -15,3 +15,17 @@ VALUES
 (555,'LA','Singapore',11000,55000),
 (666,'UK','Atlanta',15000,60000)
 
+
+CREATE TABLE Aircraft(
+aid INT PRIMARY KEY,
+aname VARCHAR(30),
+cruisingrange INT
+)
+
+INSERT INTO Aircraft(aid,aname,cruisingrange)
+VALUES
+(111,'AD Scout',1000),
+(112,'Airo',15000),
+(113,'Avis',9000),
+(114,'Bernard',8000),
+(115,'Comte',20000)
