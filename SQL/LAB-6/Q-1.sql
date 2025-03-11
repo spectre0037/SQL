@@ -63,3 +63,7 @@ SELECT o.customer_id,c.customer_name,o.order_id,o.order_date
 FROM orders o
 FULL OUTER JOIN Customers c
 ON o.customer_id = c.customer_id
+
+SELECT  Customers.customer_name,Products.product_name
+FROM Customers
+CROSS JOIN Products
