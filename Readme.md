@@ -1,10 +1,18 @@
-<center># 📚 **Database Management System Course** 📚</center>
+<div align="center">
+  
+# 📚 **Database Management System Course** 📚
+
+</div>
 
 Welcome to the Database Management System (DBMS) course! This course is designed to provide you with a comprehensive understanding of database concepts using PostgreSQL. The course is divided into 10 labs, each focusing on different aspects of DBMS.
 
 ---
 
-<center>## 🗂️ **Course Structure** 🗂️</center>
+<div align="center">
+  
+## 🗂️ **Course Structure** 🗂️
+
+</div>
 
 The course is divided into the following labs:
 
@@ -21,7 +29,11 @@ The course is divided into the following labs:
 
 ---
 
-<center>## 📊 **Lab 1: Introduction to Databases** 📊</center>
+<div align="center">
+  
+## 📊 **Lab 1: Introduction to Databases** 📊
+
+</div>
 
 ![Introduction to Databases](https://via.placeholder.com/600x400)
 
@@ -29,7 +41,11 @@ In this lab, you will learn about the basics of databases, including what they a
 
 ---
 
-<center>## 📝 **Lab 2: SQL Basics** 📝</center>
+<div align="center">
+  
+## 📝 **Lab 2: SQL Basics** 📝
+
+</div>
 
 ![SQL Basics](https://via.placeholder.com/600x400)
 
@@ -37,7 +53,11 @@ This lab covers the fundamentals of SQL, including basic queries, data manipulat
 
 ---
 
-<center>## 🔍 **Lab 3: Advanced SQL Queries** 🔍</center>
+<div align="center">
+  
+## 🔍 **Lab 3: Advanced SQL Queries** 🔍
+
+</div>
 
 ![Advanced SQL Queries](https://via.placeholder.com/600x400)
 
@@ -45,7 +65,11 @@ In this lab, you will learn about advanced SQL queries, including joins, subquer
 
 ---
 
-<center>## 🏗️ **Lab 4: Database Design** 🏗️</center>
+<div align="center">
+  
+## 🏗️ **Lab 4: Database Design** 🏗️
+
+</div>
 
 ![Database Design](https://via.placeholder.com/600x400)
 
@@ -53,7 +77,11 @@ This lab focuses on database design principles, including entity-relationship di
 
 ---
 
-<center>## 🔄 **Lab 5: Normalization** 🔄</center>
+<div align="center">
+  
+## 🔄 **Lab 5: Normalization** 🔄
+
+</div>
 
 ![Normalization](https://via.placeholder.com/600x400)
 
@@ -61,7 +89,11 @@ Learn about normalization, its importance, and how to apply different normal for
 
 ---
 
-<center>## 🔒 **Lab 6: Transactions and Concurrency Control** 🔒</center>
+<div align="center">
+  
+## 🔒 **Lab 6: Transactions and Concurrency Control** 🔒
+
+</div>
 
 ![Transactions and Concurrency Control](https://via.placeholder.com/600x400)
 
@@ -69,7 +101,11 @@ This lab covers transactions, ACID properties, and concurrency control mechanism
 
 ---
 
-<center>## ⚙️ **Lab 7: Indexing and Optimization** ⚙️</center>
+<div align="center">
+  
+## ⚙️ **Lab 7: Indexing and Optimization** ⚙️
+
+</div>
 
 ![Indexing and Optimization](https://via.placeholder.com/600x400)
 
@@ -77,7 +113,11 @@ Learn about indexing, query optimization, and performance tuning techniques in t
 
 ---
 
-<center>## 📜 **Lab 8: Stored Procedures and Functions** 📜</center>
+<div align="center">
+  
+## 📜 **Lab 8: Stored Procedures and Functions** 📜
+
+</div>
 
 ![Stored Procedures and Functions](https://via.placeholder.com/600x400)
 
@@ -85,7 +125,11 @@ This lab focuses on creating and using stored procedures and functions in Postgr
 
 ---
 
-<center>## 🔔 **Lab 9: Triggers and Views** 🔔</center>
+<div align="center">
+  
+## 🔔 **Lab 9: Triggers and Views** 🔔
+
+</div>
 
 ![Triggers and Views](https://via.placeholder.com/600x400)
 
@@ -93,7 +137,11 @@ Learn about triggers and views, their uses, and how to implement them in Postgre
 
 ---
 
-<center>## 🔐 **Lab 10: Database Security** 🔐</center>
+<div align="center">
+  
+## 🔐 **Lab 10: Database Security** 🔐
+
+</div>
 
 ![Database Security](https://via.placeholder.com/600x400)
 
@@ -101,7 +149,11 @@ This lab covers database security concepts, including user roles, permissions, a
 
 ---
 
-<center>## 📚 **Resources** 📚</center>
+<div align="center">
+  
+## 📚 **Resources** 📚
+
+</div>
 
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [SQL Tutorial](https://www.w3schools.com/sql/)
@@ -109,7 +161,11 @@ This lab covers database security concepts, including user roles, permissions, a
 
 ---
 
-<center>## 📧 **Contact** 📧</center>
+<div align="center">
+  
+## 📧 **Contact** 📧
+
+</div>
 
 For any queries or assistance, please contact the course instructor at [instructor@example.com](mailto:instructor@example.com).
 
