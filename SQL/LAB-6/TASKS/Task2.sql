@@ -1,3 +1,4 @@
+--CREATING TABLES
 CREATE TABLE Employees(
 employee_id SERIAL PRIMARY KEY,
 employee_name VARCHAR(255),
@@ -14,7 +15,7 @@ CREATE TABLE Projects (
     FOREIGN KEY (employee_id) REFERENCES Employees(employee_id)
 );
 
-
+--INSERTING DATA
 INSERT INTO Employees(employee_name,department_id,hire_date)
 VALUES
 ('John',101,'2020-01-15'),
