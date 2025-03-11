@@ -58,3 +58,8 @@ FROM Customers c
 LEFT JOIN orders o
 ON c.customer_id = o.customer_id
 WHERE order_id IS NULL
+
+SELECT o.customer_id,c.customer_name,o.order_id,o.order_date
+FROM orders o
+FULL OUTER JOIN Customers c
+ON o.customer_id = c.customer_id
