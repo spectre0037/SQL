@@ -46,6 +46,7 @@ INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, tot
     (4, 3, 2, '2025-03-11 10:45:00', 3, 1800.00); -- Charlie orders 3 Phones
 
 
+
 SELECT order_id,order_date,quantity,total_price,c.customer_name,p.product_name
 FROM orders o
 INNER JOIN Customers c
