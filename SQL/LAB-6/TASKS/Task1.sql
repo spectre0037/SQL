@@ -47,6 +47,7 @@ INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, tot
 
 
 
+
 SELECT order_id,order_date,quantity,total_price,c.customer_name,p.product_name
 FROM orders o
 INNER JOIN Customers c
