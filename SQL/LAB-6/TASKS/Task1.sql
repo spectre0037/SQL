@@ -38,6 +38,7 @@ VALUES
 ('Phone',600.00,20),
 ('tablet',300.00,15)
 
+
 INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, total_price) VALUES
     (1, 1, 1, '2025-03-11 10:00:00', 1, 1000.00), -- Alice orders 1 Laptop
     (2, 1, 2, '2025-03-11 10:15:00', 2, 1200.00), -- Alice orders 2 Phones
