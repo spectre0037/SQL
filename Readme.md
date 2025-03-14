@@ -27,6 +27,7 @@ The course is divided into the following labs:
 9. **Triggers and Views**
 10. **Database Security**
 
+
 ---
 
 <div align="center">
