@@ -75,6 +75,7 @@ In this lab, you will learn about advanced SQL queries, including joins, subquer
 
 </div>
 
+
 ![Database Design](https://via.placeholder.com/600x400)
 
 This lab focuses on database design principles, including entity-relationship diagrams and schema design.
