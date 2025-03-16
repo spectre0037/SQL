@@ -67,6 +67,7 @@ In this lab, you will learn about advanced SQL queries, including joins, subquer
 
 ---
 
+
 <div align="center">
   
 ## 🏗️ **Lab 4: Database Design** 🏗️
