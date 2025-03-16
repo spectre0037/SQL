@@ -58,6 +58,7 @@ This lab covers the fundamentals of SQL, including basic queries, data manipulat
   
 ## 🔍 **Lab 3: Advanced SQL Queries** 🔍
 
+
 </div>
 
 ![Advanced SQL Queries](https://via.placeholder.com/600x400)
