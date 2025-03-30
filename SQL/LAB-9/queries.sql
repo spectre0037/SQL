@@ -77,6 +77,7 @@ EXPLAIN ANALYZE INSERT INTO EMPLOYEES (Employee_id, Department_name, Employee_na
 VALUES (7, 'Marketing', 'Joe', 75000);
 
 
+
 EXPLAIN ANALYZE SELECT * FROM employee_view;
 
 
