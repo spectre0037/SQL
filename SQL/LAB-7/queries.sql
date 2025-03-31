@@ -63,18 +63,19 @@ END Task_3 $$;
 
 
 DO $$
-<<task_4>>
+DECLARE
+info Books%ROWTYPE;
 BEGIN
-    IF EXISTS (
-        SELECT title 
-		FROM Books 
-		WHERE isbn = '978-1983126694'
-    ) THEN
-        RAISE NOTICE 'Book Found: %',(SELECT title FROM Books WHERE isbn = '978-1983126694');
-    ELSE
-        RAISE NOTICE 'Book with ISBN 978-1983126694 not found.';
-    END IF;
-END task_4 $$;
+	SELECT * INTO info 
+	FROM Books
+	WHERE isbn = '978-1982127794';
+	
+	IF FOUND THEN 
+	RAISE NOTICE 'BOOK FOUND : %',info;
+	ELSE
+	RAISE NOTICE 'NOT FOUND :';
+	END IF;
+END $$;
 
 
 --task-5
