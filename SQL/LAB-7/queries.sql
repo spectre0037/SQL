@@ -113,7 +113,6 @@ end task_5 $$;
 DO $$
 <<task_6>>
 DECLARE 
-	Numb INTEGER :=1;
 	counter INTEGER :=1;
 BEGIN
 	WHILE counter <11
