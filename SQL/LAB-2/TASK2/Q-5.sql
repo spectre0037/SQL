@@ -1,3 +1,0 @@
-ALTER TABLE students
-ADD COLUMN no_of_D INT,
-ADD COLUMN no_of_F INT

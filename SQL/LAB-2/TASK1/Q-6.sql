@@ -1,1 +1,0 @@
-SELECT * FROM friends WHERE id BETWEEN 2 AND 8;
